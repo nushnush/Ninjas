@@ -44,15 +44,9 @@ public class Ninja
 	public bool ValidForBattle() => (!inFight && health > 0);
 	
 	/// <summary>
-    /// Indicates whether the ninja has full health or not.
-    /// </summary>
-	public bool HasFullHealth() => (health >= maxHealth);
-	
-	/// <summary>
-    /// Apply damage to victim from the attacker.
-    /// </summary>
-    /// <param name="amount">Damage amount</param>
-	/// <param name="critChance">The attacker's crit chance</param>
+    	/// Indicates whether the ninja has full health or not.
+    	/// </summary>
+	public bool HasFullHealth() => (health >= maxHealth);	
 }
 
 public enum Belt
